@@ -1,0 +1,32 @@
+.brand-mark {
+  font-size: 14px;
+  letter-spacing: -3px;
+  white-space: nowrap;
+}
+
+.gallery-grid {
+  grid-template-rows: repeat(3, minmax(170px, 220px));
+}
+
+.menu-full-link {
+  display: inline-block;
+  margin-top: 24px;
+}
+
+.directions-link {
+  margin-top: 14px;
+}
+
+.directions-note {
+  display: block;
+  margin-top: 8px;
+  color: #82756b;
+  font-size: 9px;
+  line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+  .brand-mark {
+    font-size: 13px;
+  }
+}
